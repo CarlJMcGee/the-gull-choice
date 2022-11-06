@@ -13,6 +13,7 @@ export default function RootLayout({
           content="The choice has always been yours, my friend..."
         />
         <link rel="stylesheet" href="../styles/global.css" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
       </head>
       <body>{children}</body>
     </html>
