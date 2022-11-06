@@ -3,7 +3,7 @@
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import { type NextPage } from "next";
-import ChoiceButton from "../components/ChoiceButton";
+import ChoiceButton from "../../components/ChoiceButton";
 
 const Home: NextPage = () => {
   const choices: IChoice[] = [

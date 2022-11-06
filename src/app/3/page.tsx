@@ -3,7 +3,7 @@
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import { type NextPage } from "next";
-import ChoiceButton from "../components/ChoiceButton";
+import ChoiceButton from "../../components/ChoiceButton";
 
 const Home: NextPage = () => {
   const choices: IChoice[] = [
@@ -29,10 +29,15 @@ const Home: NextPage = () => {
       <main className="flex flex-col">
         <div className="m-10 flex flex-col justify-center text-center">
           <Typography className="text-4xl">
-            You're Traveling through the forest
+            He hands you a cloudy glass, still warm.
           </Typography>
           <Typography className="text-3xl">
-            when you happen apon a rouge druid miling his gull.
+            You take in the nose of the drink: it smells as moss tastes. When
+            you take a sip, it reminds you of summers spent in the northern
+            fields, eating raw sugar beats straight from the ground still
+            saturated in manure and worm. You finish the glass and smile at the
+            druid, "Thank you." The druid returns you a toothy smile devoid of
+            teeth, "The milk was within you all along.
           </Typography>
         </div>
         <div className="flex justify-center">

@@ -1,4 +1,6 @@
 import "../styles/globals.css";
+import Image from "next/image";
+import gull from "./assets/gull-milk(cropped).jpg";
 export default function RootLayout({
   children,
 }: {
@@ -16,7 +18,13 @@ export default function RootLayout({
         <link rel="stylesheet" href="../styles/global.css" />
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
       </head>
-      <body>{children}</body>
+      <body>
+        <div className="m-5 flex flex-row justify-center">
+          <Image src={gull} alt="the gull and the druid" width={500} />
+        </div>
+
+        {children}
+      </body>
     </html>
   );
 }
