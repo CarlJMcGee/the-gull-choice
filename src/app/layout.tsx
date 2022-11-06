@@ -15,8 +15,7 @@ export default function RootLayout({
           name="description"
           content="The choice has always been yours, my friend..."
         />
-        <link rel="stylesheet" href="../styles/global.css" />
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
       </head>
       <body>
         <div className="m-5 flex flex-row justify-center">
