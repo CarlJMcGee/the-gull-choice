@@ -17,7 +17,7 @@ export default function Prompt({ prompt, choices, linkHead }: IPromptProps) {
         className="flex flex-col"
         initial={{ y: -50, opacity: 0 }}
         animate={{ y: 0, opacity: 100 }}
-        transition={{ type: "spring", bounce: 0.5 }}
+        transition={{ type: "tween", duration: 0.5 }}
       >
         <div className="m-10 flex flex-col justify-center text-center">
           <Typography className="text-4xl">
