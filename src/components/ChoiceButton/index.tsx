@@ -24,7 +24,6 @@ export default function ChoiceButton({
           transition={{ type: "spring", bounce: 0.5, delay: 0.2 }}
           whileHover={{
             scale: "110%",
-            // color: "#374053",
             transition: { type: "tween", duration: 0.3 },
           }}
         >
