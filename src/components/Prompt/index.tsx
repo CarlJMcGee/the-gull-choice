@@ -2,6 +2,7 @@ import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import * as React from "react";
 import ChoiceButton from "../ChoiceButton";
+import { motion } from "framer-motion";
 
 export interface IPromptProps {
   prompt: [title: string, body: string];
@@ -12,7 +13,12 @@ export interface IPromptProps {
 export default function Prompt({ prompt, choices, linkHead }: IPromptProps) {
   return (
     <>
-      <main className="flex flex-col">
+      <motion.main
+        className="flex flex-col"
+        initial={{ y: -50, opacity: 0 }}
+        animate={{ y: 0, opacity: 100 }}
+        transition={{ type: "spring", bounce: 0.5 }}
+      >
         <div className="m-10 flex flex-col justify-center text-center">
           <Typography className="text-4xl">
             {prompt[0]}
@@ -40,7 +46,7 @@ export default function Prompt({ prompt, choices, linkHead }: IPromptProps) {
             ))}
           </Grid>
         </div>
-      </main>
+      </motion.main>
     </>
   );
 }
