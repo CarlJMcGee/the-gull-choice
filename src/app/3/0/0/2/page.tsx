@@ -11,7 +11,7 @@ export default function Page() {
           `when suddenly the druid produces a wand from his cloak. 
         You can feel the raw power radiating from the hard, pulsing wood.
         The tip glows, ready to burst, as the druid chants, "So shall you dance, so shall you be."
-        When contiousness returns hours later, you find your once nimble and dexturaous hands  have been
+        When consciousness returns hours later, you find your once nimble and dexterous hands  have been
         replaced with claws. As you scuttle away, toward the setting sun, 
         you wonder in vain what the new future brings.`,
         ]}
