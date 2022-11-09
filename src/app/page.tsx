@@ -1,14 +1,36 @@
-import { type NextPage } from "next";
-import Image from "next/image";
+"use client";
 
-import gull from "./assets/gull-milk(cropped).jpg";
+import { type NextPage } from "next";
+import Prompt from "../components/Prompt";
 
 const Home: NextPage = () => {
   return (
     <>
-      <main>
-        <Image src={gull} alt="the gull and the druid" width={250} />
-      </main>
+      <Prompt
+        linkHead="/"
+        prompt={[
+          "You're Traveling through the forest",
+          "when you happen apon a rouge druid miling his gull.",
+        ]}
+        choices={[
+          {
+            title: "Be Still.",
+            body: "Assume his vision has been clouded after years of consuming the milk.",
+          },
+          {
+            title: "Turn Back.",
+            body: "Your conjuring levels are no match for this forbidden incantation.",
+          },
+          {
+            title: "Unsheath Your Lute.",
+            body: "Award the pair with a pleasant carol.",
+          },
+          {
+            title: "Confront Him.",
+            body: "Politly ask for a glass.",
+          },
+        ]}
+      />
     </>
   );
 };
