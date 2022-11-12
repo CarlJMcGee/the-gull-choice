@@ -1,10 +1,8 @@
-"use client";
+import Prompt from "./components/Prompt";
 
-import Prompt from "../components/Prompt";
-
-const Page = () => {
+export default function Page() {
   return (
-    <>
+    <div>
       <Prompt
         linkHead="/"
         prompt={[
@@ -30,8 +28,6 @@ const Page = () => {
           },
         ]}
       />
-    </>
+    </div>
   );
-};
-
-export default Page;
+}

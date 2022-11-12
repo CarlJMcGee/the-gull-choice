@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import EndCard from "../../../../components/EndCard";
+import EndCard from "../../../components/EndCard";
 
 export default function Page() {
   return (

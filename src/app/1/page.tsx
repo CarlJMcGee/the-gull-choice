@@ -2,8 +2,8 @@
 
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-import ChoiceButton from "../../components/ChoiceButton";
-import Prompt from "../../components/Prompt";
+import ChoiceButton from "../components/ChoiceButton";
+import Prompt from "../components/Prompt";
 
 const Page = () => {
   const choices: IChoice[] = [

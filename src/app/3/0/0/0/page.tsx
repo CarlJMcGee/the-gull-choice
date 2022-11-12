@@ -1,6 +1,6 @@
 "use client";
 
-import EndCard from "../../../../../components/EndCard";
+import EndCard from "../../../../components/EndCard";
 
 export default function Page() {
   return (
