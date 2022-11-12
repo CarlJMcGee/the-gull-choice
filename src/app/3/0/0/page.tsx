@@ -20,7 +20,7 @@ export default function Page(props: IPageProps) {
           },
           {
             title: "Ninja Vanish.",
-            body: "Blend into your envionment and disapear from sight.",
+            body: "Blend into your envionment and disappear from sight.",
           },
           {
             title: "Be on your Guard.",

@@ -10,7 +10,7 @@ const Home: NextPage = () => {
         linkHead="/"
         prompt={[
           "You're Traveling through the forest",
-          "when you happen apon a rouge druid miling his gull.",
+          "when you happen upon a rouge druid miling his gull.",
         ]}
         choices={[
           {
