@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import EndCard from "../../../../components/EndCard";
 
 export default function Page() {
@@ -18,7 +19,7 @@ export default function Page() {
           participating retailers.`,
         ]}
       />
-      <img
+      <Image
         className="mx-auto"
         width={1000}
         src="https://digitaleat.kfc.com/menus/image/bare/kfc-TinderTenders?q=75&w=1280"

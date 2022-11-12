@@ -2,9 +2,7 @@
 
 import Prompt from "../../../../components/Prompt";
 
-export interface IPageProps {}
-
-export default function Page(props: IPageProps) {
+export default function Page() {
   return (
     <>
       <Prompt

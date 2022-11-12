@@ -1,9 +1,8 @@
 "use client";
 
-import { type NextPage } from "next";
 import Prompt from "../../components/Prompt";
 
-const Page: NextPage = () => {
+const Page = () => {
   return (
     <>
       <Prompt
