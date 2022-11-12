@@ -15,6 +15,7 @@ const config = {
   },
   experimental: {
     appDir: true,
+    transpilePackages: ["next-components", "react-components"],
   },
 };
 export default config;
