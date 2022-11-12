@@ -19,7 +19,10 @@ export default function ChoiceButton({
 }: IChoiceButtonProps) {
   return (
     <Grid item xs={12} md={6} className="flex justify-center">
-      <Link href={link} className="m-2 w-full">
+      <Link
+        href={link}
+        className="m-2 w-full bg-slate-400 p-3 text-white hover:bg-slate-700"
+      >
         <motion.div
           initial={{ scale: "80%", opacity: 0 }}
           animate={{ scale: "100%", opacity: 100 }}
@@ -29,7 +32,7 @@ export default function ChoiceButton({
             transition: { type: "tween", duration: 0.3 },
           }}
         >
-          <Paper className="w-full bg-slate-400 p-3 text-white hover:bg-slate-700">
+          <Paper className="w-full ">
             <h3 className="text-2xl font-bold">{title}</h3>
             <p>{body}</p>
           </Paper>
