@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import Prompt from "../../../components/Prompt";
+import Prompt from "../../components/Prompt";
 
 export default function Page() {
   return (

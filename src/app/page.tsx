@@ -1,4 +1,4 @@
-import Prompt from "../components/Prompt";
+import Prompt from "./components/Prompt";
 
 export default function Page() {
   return (
