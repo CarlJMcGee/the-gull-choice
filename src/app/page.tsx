@@ -1,5 +1,3 @@
-"use client";
-
 import Prompt from "../components/Prompt";
 
 export default function Page() {
