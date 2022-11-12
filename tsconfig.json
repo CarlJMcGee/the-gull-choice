@@ -28,7 +28,7 @@
     "**/*.cjs",
     "**/*.mjs",
     ".next/types/**/*.ts",
-    "src/pages/_app.tsx.bak"
+    "src/pages/_app.tsx"
   ],
   "exclude": ["node_modules"]
 }
