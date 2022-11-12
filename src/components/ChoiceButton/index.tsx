@@ -16,7 +16,7 @@ export default function ChoiceButton({
   link,
 }: IChoiceButtonProps) {
   return (
-    <Grid item xs={6} className="flex justify-center">
+    <Grid item xs={12} md={6} className="flex justify-center">
       <Link href={link} className="m-2 w-full">
         <motion.div
           initial={{ scale: "80%", opacity: 0 }}
