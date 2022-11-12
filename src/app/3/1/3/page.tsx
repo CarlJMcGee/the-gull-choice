@@ -8,6 +8,6 @@ export default function Page() {
 
   useEffect(() => {
     router.replace(`/3/1`);
-  }, []);
+  }, [router]);
   return <div></div>;
 }

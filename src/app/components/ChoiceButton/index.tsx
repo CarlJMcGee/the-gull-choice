@@ -2,7 +2,6 @@
 
 import * as React from "react";
 import Grid from "@mui/material/Grid";
-import Paper from "@mui/material/Paper";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
