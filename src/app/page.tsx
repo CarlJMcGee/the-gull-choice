@@ -2,7 +2,7 @@ import Prompt from "../components/Prompt";
 
 export default function Page() {
   return (
-    <>
+    <div>
       <Prompt
         linkHead="/"
         prompt={[
@@ -28,6 +28,6 @@ export default function Page() {
           },
         ]}
       />
-    </>
+    </div>
   );
 }
