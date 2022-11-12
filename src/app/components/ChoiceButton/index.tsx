@@ -1,7 +1,6 @@
 "use client";
 
 import * as React from "react";
-import Grid from "@mui/material/Grid";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
@@ -17,10 +16,11 @@ export default function ChoiceButton({
   link,
 }: IChoiceButtonProps) {
   return (
-    <Grid item xs={12} md={6} className="flex justify-center">
+    // <Grid item xs={12} md={6} className="flex justify-center">
+    <div className="flex justify-center text-center sm:m-1 md:m-3">
       <Link href={link} className="m-2 w-full">
         <motion.div
-          className="rounded-md bg-slate-400 p-3 text-white shadow-lg hover:bg-slate-700"
+          className="rounded-md bg-slate-400 p-5 text-white shadow-lg hover:bg-slate-700"
           initial={{ scale: "80%", opacity: 0 }}
           animate={{ scale: "100%", opacity: 100 }}
           transition={{ type: "spring", bounce: 0.5, delay: 0.2 }}
@@ -33,6 +33,7 @@ export default function ChoiceButton({
           <p>{body}</p>
         </motion.div>
       </Link>
-    </Grid>
+    </div>
+    // </Grid>
   );
 }
