@@ -20,7 +20,7 @@ export default function ChoiceButton({
   return (
     <Grid item xs={12} md={6} className="flex justify-center">
       <Link href={link} className="m-2 w-full">
-        <motion.div
+        {/* <motion.div
           initial={{ scale: "80%", opacity: 0 }}
           animate={{ scale: "100%", opacity: 100 }}
           transition={{ type: "spring", bounce: 0.5, delay: 0.2 }}
@@ -28,12 +28,22 @@ export default function ChoiceButton({
             scale: "110%",
             transition: { type: "tween", duration: 0.3 },
           }}
+        > */}
+        <Paper
+          component={motion.div}
+          initial={{ scale: "80%", opacity: 0 }}
+          animate={{ scale: "100%", opacity: 100 }}
+          transition={{ type: "spring", bounce: 0.5, delay: 0.2 }}
+          whileHover={{
+            scale: "110%",
+            transition: { type: "tween", duration: 0.3 },
+          }}
+          className="w-full bg-slate-400 p-3 text-white hover:bg-slate-700"
         >
-          <Paper className="w-full bg-slate-400 p-3 text-white hover:bg-slate-700">
-            <h3 className="text-2xl font-bold">{title}</h3>
-            <p>{body}</p>
-          </Paper>
-        </motion.div>
+          <h3 className="text-2xl font-bold">{title}</h3>
+          <p>{body}</p>
+        </Paper>
+        {/* </motion.div> */}
       </Link>
     </Grid>
   );
