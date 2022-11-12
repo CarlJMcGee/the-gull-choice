@@ -2,7 +2,7 @@
 
 import Prompt from "../components/Prompt";
 
-const Page = () => {
+export default function Page() {
   return (
     <>
       <Prompt
@@ -32,6 +32,4 @@ const Page = () => {
       />
     </>
   );
-};
-
-export default Page;
+}
