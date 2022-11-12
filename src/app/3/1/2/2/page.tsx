@@ -7,9 +7,9 @@ export default function Page() {
     <>
       <EndCard
         prompt={[
-          "What?",
-          `I don't understand what you're asking. Who are you and how did you get my number? 
-        Please do not call my again or I'll have to get the police involved. Goodbye.`,
+          `"What?"`,
+          `"I don't understand what you're asking. Who are you and how did you get my number? 
+        Please do not call my again or I'll have to get the police involved. Goodbye."`,
         ]}
       />
     </>
