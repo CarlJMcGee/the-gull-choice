@@ -8,27 +8,13 @@ The choice was always yours, my friend...
 
 ## Table of Contents
 
-- [Installation](#installation)
-
-- [Usage](#usage)
-
 - [Credits](#credits)
 
 - [License](#license)
 
 - [Contributing](#contributing)
 
-
-
 - [Questions](#questions)
-
-## Installation
-
-n/a
-
-## Usage
-
-n/a
 
 ## Credits
 
@@ -41,10 +27,6 @@ Original artist unknown. Web site created by CarlJMcGee.
 ## Contributing
 
 [Click to see the Contributor Covenant guidelines](./code_of_conduct.md)
-
-
-
-
 
 ## Questions?
 
