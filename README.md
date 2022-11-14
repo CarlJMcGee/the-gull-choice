@@ -1,27 +1,55 @@
-# Create T3 App
+# The Gull Choice
 
-This is an app bootstrapped according to the [init.tips](https://init.tips) stack, also known as the T3-Stack.
+![license badge](https://img.shields.io/badge/license-Mozilla--Public--License--2.0-blue)
 
-## What's next? How do I make an app with this?
+## Description
 
-We try to keep this project as simple as possible, so you can start with the most basic configuration and then move on to more advanced configuration.
+The choice was always yours, my friend...
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## Table of Contents
 
-- [Next-Auth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [TailwindCSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+- [Installation](#installation)
 
-We also [roll our own docs](https://beta.create.t3.gg) with some summary information and links to the respective documentation.
+- [Usage](#usage)
 
-Also checkout these awesome tutorials on `create-t3-app`.
+- [Credits](#credits)
 
-- [Build a Blog With the T3 Stack - tRPC, TypeScript, Next.js, Prisma & Zod](https://www.youtube.com/watch?v=syEWlxVFUrY)
-- [Build a Live Chat Application with the T3 Stack - TypeScript, Tailwind, tRPC](https://www.youtube.com/watch?v=dXRRY37MPuk)
-- [Build a full stack app with create-t3-app](https://www.nexxel.dev/blog/ct3a-guestbook)
-- [A first look at create-t3-app](https://dev.to/ajcwebdev/a-first-look-at-create-t3-app-1i8f)
+- [License](#license)
 
-## How do I deploy this?
+- [Contributing](#contributing)
 
-Follow our deployment guides for [Vercel](https://beta.create.t3.gg/en/deployment/vercel) and [Docker](https://beta.create.t3.gg/en/deployment/docker) for more information.
+
+
+- [Questions](#questions)
+
+## Installation
+
+n/a
+
+## Usage
+
+n/a
+
+## Credits
+
+Original artist unknown. Web site created by CarlJMcGee.
+
+## License
+
+[This project uses Mozilla Public License 2.0](./mozilla.txt)
+
+## Contributing
+
+[Click to see the Contributor Covenant guidelines](./code_of_conduct.md)
+
+
+
+
+
+## Questions?
+
+If you have any issues, submit them to my [Github](https://github.com/CarlJMcGee)
+
+or
+
+If you have any other questions or inquiries, you can contact me at [carl.jack.mcgee@gmail.com](mailto:carl.jack.mcgee@gmail.com)
