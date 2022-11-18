@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import * as random from "../../../../utils/random";
+import * as random from "lol-random";
 import EndCard from "../../../components/EndCard";
 
 export default function Page() {

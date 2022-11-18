@@ -9,7 +9,7 @@ export default function Page() {
         linkHead="/3/3/"
         prompt={[
           `The Druid and gull sit patiently,`,
-          `as you finish your 45min routine. They politly clap as you complete your final move. 
+          `as you finish your 45 minute routine. They politly clap as you complete your final move. 
         "Very cool. Do you have any other talents?"`,
         ]}
         choices={[
