@@ -1,4 +1,4 @@
-"use client";
+("");
 
 import Prompt from "../../components/Prompt";
 

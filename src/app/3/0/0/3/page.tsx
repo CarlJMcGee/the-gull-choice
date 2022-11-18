@@ -1,4 +1,4 @@
-"use client";
+("");
 
 import EndCard from "../../../../components/EndCard";
 
