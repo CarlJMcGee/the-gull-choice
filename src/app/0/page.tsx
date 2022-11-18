@@ -4,24 +4,28 @@ const Page = () => {
   return (
     <>
       <Prompt
-        linkHead=""
-        prompt={["", ``]}
+        linkHead="/0/"
+        prompt={[
+          "You freeze; you will every muscle in your body to stop,",
+          `as you know even the slightest ball twitch will alert the crust cloaked man. 
+        The druid stops his milking and begins to sniff the air.`,
+        ]}
         choices={[
           {
-            title: "",
-            body: "",
+            title: "Get Him Off Your Sent.",
+            body: "Use Your Ventriloquist's Fart as a Distraction.",
           },
           {
-            title: "",
-            body: "",
+            title: "Pocket Sand!",
+            body: "Pocket Sand!",
           },
           {
-            title: "",
-            body: "",
+            title: "Keep it Up.",
+            body: "He Probably Hasn't Seen You Yet, So Just Stay Still.",
           },
           {
-            title: "",
-            body: "",
+            title: "Be Polite.",
+            body: "Walk Up and Introduce Yourself",
           },
         ]}
       />
