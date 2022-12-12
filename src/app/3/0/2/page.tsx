@@ -1,7 +1,6 @@
-("");
-
 import Image from "next/image";
 import EndCard from "../../../components/EndCard";
+import img from "./assests/kfc-TinderTenders.webp";
 
 export default function Page() {
   return (
@@ -21,8 +20,8 @@ export default function Page() {
       />
       <Image
         className="mx-auto"
-        width={1000}
-        src="https://digitaleat.kfc.com/menus/image/bare/kfc-TinderTenders?q=75&w=1280"
+        width={1280}
+        src={img}
         alt="kay ef see tinder tenders meal for two"
       />
     </>

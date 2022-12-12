@@ -1,13 +1,13 @@
-("");
+"use client";
 
 import { useEffect, useState } from "react";
-import * as random from "lol-random";
+import { coinFlip } from "@carljmcgee/lol-random";
 import EndCard from "../../../components/EndCard";
 
 export default function Page() {
   const [coin, flipCoin] = useState<string | null>(null);
   useEffect(() => {
-    flipCoin(random.coinFlip());
+    flipCoin(coinFlip());
   });
 
   return (

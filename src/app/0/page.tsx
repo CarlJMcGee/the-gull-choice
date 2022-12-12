@@ -12,7 +12,7 @@ const Page = () => {
         ]}
         choices={[
           {
-            title: "Get Him Off Your Sent.",
+            title: "Get Him Off Your Scent.",
             body: "Use Your Ventriloquist's Fart as a Distraction.",
           },
           {

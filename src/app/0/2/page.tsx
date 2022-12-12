@@ -1,30 +1,14 @@
+"use client";
+
+import { useRouter } from "next/navigation";
+import { useEffect } from "react";
 import Prompt from "../../components/Prompt";
 
 export default function Page() {
-  return (
-    <>
-      <Prompt
-        linkHead=""
-        prompt={[``, ``]}
-        choices={[
-          {
-            title: "",
-            body: "",
-          },
-          {
-            title: "",
-            body: "",
-          },
-          {
-            title: "",
-            body: "",
-          },
-          {
-            title: "",
-            body: "",
-          },
-        ]}
-      />
-    </>
-  );
+  const router = useRouter();
+
+  useEffect(() => {
+    router.replace("/0/");
+  }, [router]);
+  return <></>;
 }
