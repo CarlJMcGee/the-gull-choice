@@ -7,7 +7,7 @@ export default function Page() {
         linkHead="/"
         prompt={[
           "You're Traveling through the forest",
-          "when you happen upon a rouge druid miling his gull.",
+          "when you happen upon a rouge druid milking his gull.",
         ]}
         choices={[
           {

@@ -26,7 +26,7 @@ export default function ChoiceButton({
           transition={{ type: "spring", bounce: 0.5, delay: 0.2 }}
           whileHover={{
             scale: "110%",
-            transition: { type: "tween", duration: 0.3 },
+            transition: { type: "tween", duration: 0.2 },
           }}
         >
           <h3 className="text-2xl font-bold">{title}</h3>

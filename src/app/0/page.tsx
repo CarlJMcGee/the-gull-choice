@@ -1,38 +1,31 @@
-"use client";
-
-import Grid from "@mui/material/Grid";
-import Typography from "@mui/material/Typography";
-import ChoiceButton from "../components/ChoiceButton";
 import Prompt from "../components/Prompt";
 
 const Page = () => {
-  const choices: IChoice[] = [
-    {
-      title: "Be Still.",
-      body: "Assume his vision has been clouded after years of consuming the milk.",
-    },
-    {
-      title: "Turn Back.",
-      body: "Your conjuring levels are no match for this forbidden incantation.",
-    },
-    {
-      title: "Unsheath Your Lute.",
-      body: "Award the pair with a pleasant carol.",
-    },
-    {
-      title: "Confront Him.",
-      body: "Politly ask for a glass.",
-    },
-  ];
   return (
     <>
       <Prompt
-        linkHead=""
-        prompt={["", ``]}
+        linkHead="/0/"
+        prompt={[
+          "You freeze; you will every muscle in your body to stop,",
+          `as you know even the slightest ball twitch will alert the crust cloaked man. 
+        The druid stops his milking and begins to sniff the air.`,
+        ]}
         choices={[
           {
-            title: "",
-            body: "",
+            title: "Get Him Off Your Scent.",
+            body: "Use Your Ventriloquist's Fart as a Distraction.",
+          },
+          {
+            title: "Pocket Sand!",
+            body: "Pocket Sand!",
+          },
+          {
+            title: "Keep it Up.",
+            body: "He Probably Hasn't Seen You Yet, So Just Stay Still.",
+          },
+          {
+            title: "Be Polite.",
+            body: "Walk Up and Introduce Yourself",
           },
         ]}
       />
