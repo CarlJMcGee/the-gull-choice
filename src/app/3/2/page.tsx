@@ -1,6 +1,6 @@
 import EndCard from "../../components/EndCard";
 
-export default function () {
+export default function Page() {
   return (
     <>
       <EndCard

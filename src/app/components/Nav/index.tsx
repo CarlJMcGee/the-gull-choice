@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 export default function Nav() {
   const router = useRouter();
   const path = usePathname();
-  const pathArr = path?.split("/");
+  const pathArr = path?.split("/") ?? ["/", " "];
   pathArr?.pop();
 
   return (
@@ -36,7 +36,7 @@ export default function Nav() {
             scale: "110%",
             transition: { type: "tween", duration: 0.2 },
           }}
-          onClick={() => router.push(pathArr?.join("/")!)}
+          onClick={() => router.push(pathArr.join("/"))}
           className="mx-3 rounded-md bg-zinc-400 px-3 py-1 text-lg text-white shadow-lg hover:bg-zinc-700"
         >
           Back
