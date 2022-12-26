@@ -16,7 +16,7 @@ const Page = () => {
             body: "",
           },
           {
-            title: "Freebird",
+            title: "Free Bird",
             body: "",
           },
           {
@@ -24,7 +24,7 @@ const Page = () => {
             body: "",
           },
           {
-            title: "",
+            title: "Deja Vu(Extended ver.)",
             body: "",
           },
         ]}

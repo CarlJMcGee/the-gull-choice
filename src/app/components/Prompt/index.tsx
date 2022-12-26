@@ -36,7 +36,7 @@ export default function Prompt({ prompt, choices, linkHead }: IPromptProps) {
         </div>
         <div className="flex justify-center">
           {/* <Grid container spacing={2} className="mx-10 w-1/2 text-center"> */}
-          <div className="grid sm:w-full sm:grid-cols-1 md:w-2/3 md:grid-cols-2">
+          <div className="grid sm:w-full sm:grid-cols-1 md:w-2/3 md:grid-cols-2 md:items-center">
             {choices.map(({ title, body }, index) => (
               <ChoiceButton
                 key={index}

@@ -1,5 +1,12 @@
 {
   "typescript.tsdk": "node_modules\\typescript\\lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,
-  "cSpell.words": ["Fogg", "Jehk", "Karimskaya", "Passepartout", "Roza"]
+  "cSpell.words": [
+    "Elouise",
+    "Fogg",
+    "Jehk",
+    "Karimskaya",
+    "Passepartout",
+    "Roza"
+  ]
 }
