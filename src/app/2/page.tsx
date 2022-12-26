@@ -1,35 +1,28 @@
-("");
-
-import Grid from "@mui/material/Grid";
-import Typography from "@mui/material/Typography";
-import ChoiceButton from "../components/ChoiceButton";
 import Prompt from "../components/Prompt";
 
 const Page = () => {
-  const choices: IChoice[] = [
-    {
-      title: "Be Still.",
-      body: "Assume his vision has been clouded after years of consuming the milk.",
-    },
-    {
-      title: "Turn Back.",
-      body: "Your conjuring levels are no match for this forbidden incantation.",
-    },
-    {
-      title: "Unsheath Your Lute.",
-      body: "Award the pair with a pleasant carol.",
-    },
-    {
-      title: "Confront Him.",
-      body: "Politly ask for a glass.",
-    },
-  ];
   return (
     <>
       <Prompt
-        linkHead=""
-        prompt={["", ``]}
+        linkHead="/2/"
+        prompt={[
+          "You carefully pull your lute from its scabbard,",
+          `and as you do, the Druid and gull crane their neck in your direction. Taking in a deep
+          breath, you start your ditty.`,
+        ]}
         choices={[
+          {
+            title: "Wonder Wall",
+            body: "",
+          },
+          {
+            title: "Freebird",
+            body: "",
+          },
+          {
+            title: "Piano Man",
+            body: "",
+          },
           {
             title: "",
             body: "",

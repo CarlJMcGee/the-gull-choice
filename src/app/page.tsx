@@ -19,12 +19,12 @@ export default function Page() {
             body: "Your conjuring levels are no match for this forbidden incantation.",
           },
           {
-            title: "Unsheath Your Lute.",
+            title: "Unsheathe Your Lute.",
             body: "Award the pair with a pleasant carol.",
           },
           {
             title: "Confront Him.",
-            body: "Politly ask for a glass.",
+            body: "Politely ask for a glass.",
           },
         ]}
       />
