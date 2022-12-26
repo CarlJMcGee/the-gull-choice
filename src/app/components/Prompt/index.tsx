@@ -24,7 +24,7 @@ export default function Prompt({ prompt, choices, linkHead }: IPromptProps) {
             {prompt[0]}
             {/* He hands you a cloudy glass, still warm. */}
           </h3>
-          <h4 className="text-3xl">
+          <h4 className="w-2/3 self-center text-3xl">
             {prompt[1]}
             {/* You take in the nose of the drink: it smells as moss tastes. When
             you take a sip, it reminds you of summers spent in the northern
