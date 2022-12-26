@@ -4,10 +4,10 @@ export default function Page() {
   return (
     <>
       <Prompt
-        linkHead=""
+        linkHead="0/3/"
         prompt={[
-          `You approach the duo and extend your hand,`,
-          `"Hey, I'm just passin' through here, what are your names?" The druid meets your 
+          `You approach the duo and extend your hand, "Hello there! Who might you be?"`,
+          `The druid meets your 
           handshake and says, "Salutations good sir, my name is Phileas Fogg and this is my 
           loyal valet, Jean Passepartout. We are on a mission to circumnavigate the globe in
           80 days or less. A steep challenge, I know, but together I know we can overcome anything.
@@ -21,15 +21,15 @@ export default function Page() {
           },
           {
             title: "Go West",
-            body: "",
+            body: "Take a Carriage over to Russia.",
           },
           {
             title: "Go South",
-            body: "",
+            body: "Ride the Steam Engine to Budapest.",
           },
           {
             title: "Go East",
-            body: "",
+            body: "Just head back to England and just hide out for the next 80 days.",
           },
         ]}
       />

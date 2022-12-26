@@ -1,38 +1,26 @@
-("");
+("use client");
 
-import Grid from "@mui/material/Grid";
-import Typography from "@mui/material/Typography";
-import ChoiceButton from "../components/ChoiceButton";
 import Prompt from "../components/Prompt";
 
 const Page = () => {
-  const choices: IChoice[] = [
-    {
-      title: "Be Still.",
-      body: "Assume his vision has been clouded after years of consuming the milk.",
-    },
-    {
-      title: "Turn Back.",
-      body: "Your conjuring levels are no match for this forbidden incantation.",
-    },
-    {
-      title: "Unsheath Your Lute.",
-      body: "Award the pair with a pleasant carol.",
-    },
-    {
-      title: "Confront Him.",
-      body: "Politly ask for a glass.",
-    },
-  ];
   return (
     <>
       <Prompt
-        linkHead=""
-        prompt={["", ``]}
+        linkHead="/1/"
+        prompt={[
+          "As you turn to run away,",
+          `you stop to thin about what your doing. You know you're no match for this maleficent malefactor,
+        but deep down you know you will never forgive yourself if you walk away now, after everything
+        you've been through to get you here. So what will you do:`,
+        ]}
         choices={[
           {
-            title: "",
-            body: "",
+            title: "Be Strong.",
+            body: "Turn and face this menace head on. You know what you must do.",
+          },
+          {
+            title: "Don't be Strong",
+            body: "Do the opposite of that other thing I said.",
           },
         ]}
       />

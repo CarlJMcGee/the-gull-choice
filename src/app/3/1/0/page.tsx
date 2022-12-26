@@ -8,7 +8,7 @@ export default function Page() {
   const [coin, flipCoin] = useState<string | null>(null);
   useEffect(() => {
     flipCoin(coinFlip());
-  });
+  }, []);
 
   return (
     <>

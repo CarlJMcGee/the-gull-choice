@@ -24,7 +24,7 @@ export default function Prompt({ prompt, choices, linkHead }: IPromptProps) {
             {prompt[0]}
             {/* He hands you a cloudy glass, still warm. */}
           </h3>
-          <h4 className="text-3xl">
+          <h4 className="w-2/3 self-center text-3xl">
             {prompt[1]}
             {/* You take in the nose of the drink: it smells as moss tastes. When
             you take a sip, it reminds you of summers spent in the northern
@@ -36,7 +36,7 @@ export default function Prompt({ prompt, choices, linkHead }: IPromptProps) {
         </div>
         <div className="flex justify-center">
           {/* <Grid container spacing={2} className="mx-10 w-1/2 text-center"> */}
-          <div className="grid sm:w-full sm:grid-cols-1 md:w-2/3 md:grid-cols-2">
+          <div className="grid sm:w-full sm:grid-cols-1 md:w-2/3 md:grid-cols-2 md:items-center">
             {choices.map(({ title, body }, index) => (
               <ChoiceButton
                 key={index}
