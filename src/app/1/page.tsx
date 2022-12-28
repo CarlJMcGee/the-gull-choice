@@ -9,7 +9,7 @@ const Page = () => {
         linkHead="/1/"
         prompt={[
           "As you turn to run away,",
-          `you stop to thin about what your doing. You know you're no match for this maleficent malefactor,
+          `you stop to think about what your doing. You know you're no match for this maleficent malefactor,
         but deep down you know you will never forgive yourself if you walk away now, after everything
         you've been through to get you here. So what will you do:`,
         ]}
